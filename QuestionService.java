@@ -19,7 +19,6 @@ public class QuestionService {
     public void playQuiz() {
         int i = 0;
         System.out.println("**Welcome to Quize Game**"+ "/n");
-        System.out.println("Hello GitHub Actions");
         for (Question  q : questions) {
             System.out.println("Question no. : " + q.getId());
             System.out.println(q.getQuestion());
